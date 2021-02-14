@@ -1,0 +1,232 @@
+
+{
+	"oeuf":
+	{	
+		"nom": "oeuf",
+		"type": "ingrédient",
+		"etats": ["frais","cassé"],
+		"x":130,
+		"y":370,
+		"mobile": true,
+		"image": {
+			"src": "Art/oeufs",
+			"dimX": 60,
+			"dimY": 60,
+			"clefs": {"x":2, "y":1}
+		}
+	},
+	"lait":
+	{
+		"nom": "lait",
+		"type": "ingrédient",
+		"etats": ["plein","entamé","presqueVide","vide"],
+		"x": 680, 
+		"y": 335,
+		"mobile": true,
+		"image": {
+			"src": "Art/lait",
+			"dimX": 60,
+			"dimY": 120,
+			"clefs": {
+				"x": 4,
+				"y": 1
+			}
+		}
+	},
+	"farine":
+	{
+		"nom": "farine",
+		"type": "ingrédient",
+		"etats": ["neuf","entamé"],
+		"x": 200,
+		"y": 360,
+		"mobile": true,
+		"image": {
+			"src": "Art/farine",
+			"dimX": 60,
+			"dimY": 90,
+			"clefs": {
+				"x": 2,
+				"y": 1
+			}
+		}
+	},
+	"spatule":
+	{
+		"nom": "spatule",
+		"type": "ustensile",
+		"etats": ["propre", "sale"],
+		"x": 350,
+		"y": 435,
+		"mobile": true,
+		"image": {
+			"src": "Art/spatule",
+			"dimX": 90,
+			"dimY": 60,
+			"clefs": {
+				"x": 1,
+				"y": 2
+			}
+		}
+	},
+	"saladier":
+	{
+		"nom": "saladier",
+		"type": "ustensile",
+		"etats": ["propre", "mélangé", "sale", "blanc","oeuf","épice","presqueTout", "tout"],
+		"x": 400,
+		"y": 370,
+		"mobile": true,
+		"image": {
+			"src": "Art/saladier",
+			"dimX": 120,
+			"dimY": 60,
+			"clefs": {
+				"x": 1,
+				"y": 8
+			}
+		}
+	},
+	"moule":
+	{
+		"nom": "moule",
+		"type": "ustensile",
+		"etats": ["vide", "plein", "cuit", "auFour","brulé"],
+		"x": 550,
+		"y": 400,
+		"mobile": true,
+		"image": {
+			"src": "Art/moule",
+			"dimX": 120,
+			"dimY": 150,
+			"clefs": {
+				"x": 5,
+				"y": 1
+			}
+		}
+	},
+	"four":
+	{
+		"nom": "four",
+		"type": "électroménager",
+		"etats": ["éteint", "allumé", "cuisson"],
+		"x": 680,
+		"y": 170,
+		"image": {
+			"src": "Art/four",
+			"dimX": 180,
+			"dimY": 180,
+			"clefs": {
+				"x": 3,
+				"y": 1
+			}
+		}
+	},
+	"cuisson":
+	{
+		"nom": "plaques de cuisson",
+		"type": "électroménager",
+		"etats": ["éteint", "allumé"],
+		"x": 150,
+		"y": 220,
+		"image": {
+			"src": "Art/cuisson",
+			"dimX": 180,
+			"dimY": 60,
+			"clefs": {
+				"x": 1,
+				"y": 2
+			}
+		}
+	},
+	"sucre":
+	{
+		"nom": "sucre",
+		"type": "ingrédient",
+		"etats": ["plein"],
+		"x": 50,
+		"y": 370,
+		"mobile": true,
+		"image": {
+			"src": "Art/sucre",
+			"dimX": 60,
+			"dimY": 90,
+			"clefs": {
+				"x": 1,
+				"y": 1
+			}
+		}
+	},
+	"miel":
+	{
+		"nom": "miel",
+		"type": "ingrédient",
+		"etats": ["plein"],
+		"x": 130,
+		"y": 440,
+		"mobile": true,
+		"image": {
+			"src": "Art/miel",
+			"dimX": 40,
+			"dimY": 40,
+			"clefs": {
+				"x": 1,
+				"y": 1
+			}
+		}
+	},
+	"casserole":
+	{
+		"nom": "casserole",
+		"type": "ustensile",
+		"etats": ["vide", "pleine", "chaude"],
+		"x": 680,
+		"y": 440,
+		"mobile": true,
+		"image": {
+			"src": "Art/casserole",
+			"dimX": 90,
+			"dimY": 84,
+			"clefs": {
+				"x": 3,
+				"y": 1
+			}
+		}
+	},
+	"epices":
+	{
+		"nom": "epices",
+		"type": "ingrédient",
+		"etats": ["plein"],
+		"x": 180,
+		"y": 430,
+		"mobile": true,
+		"image": {
+			"src": "Art/épices",
+			"dimX": 20,
+			"dimY": 40,
+			"clefs": {
+				"x": 1,
+				"y": 1
+			}
+		}
+	},
+	"doseur":
+	{
+		"nom": "verre doseur",
+		"type": "ustensile",
+		"etats": ["vide", "plein"],
+		"x": 270,
+		"y": 420,
+		"mobile": true,
+		"image": {
+			"src": "Art/verre_doseur",
+			"dimX": 60,
+			"dimY": 90,
+			"clefs": {
+				"x": 2,
+				"y": 1
+			}
+		}
+	}
+}
