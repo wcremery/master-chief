@@ -13,8 +13,8 @@ public class Item
     }
 
     [System.Serializable]
-    public class Image 
-    { 
+    public class Image
+    {
         public string src;
         public int dimX;
         public int dimY;
@@ -28,9 +28,4 @@ public class Item
     public int y;
     public bool mobile;
     public Image image;
-
-    public static Item CreateFromJSON(string jsonString)
-    {
-        return JsonUtility.FromJson<Item>(jsonString);
-    }
 }

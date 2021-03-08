@@ -21,10 +21,6 @@ public class JsonParser : MonoBehaviour
     public void ParseItems()
     {
         itemsDictionary = JsonConvert.DeserializeObject<Dictionary<string, Item>>(jsonContent);
-        foreach(Item item in itemsDictionary.Values)
-        {
-            Debug.Log(item.nom);
-        }
     }
 
     public void InitializeJson()
